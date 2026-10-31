@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101827">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CalcMaster Pro"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your mathematics and business companion"
+            android:textColor="#AAB8CC"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE YOUR CALCULATOR"
+            android:textColor="#42D6A4"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/basicButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Basic Calculator"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/scientificButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="12dp"
+            android:text="Scientific Calculator"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/studentButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="12dp"
+            android:text="Student Tools"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/businessButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="12dp"
+            android:text="Business Tools"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/everydayButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="12dp"
+            android:text="Everyday Tools"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALCMASTER PRO  •  VERSION 1.0"
+            android:textColor="#8290A5"
+            android:textSize="11sp"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>
